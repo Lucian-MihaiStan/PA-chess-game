@@ -1,22 +1,29 @@
 #include <iostream>
 #include <cstring>
 #include <cstdlib>
+#include <fstream>
 
 using namespace std;
 
 int main() {
 
 	char *command = (char *)calloc(sizeof(char), 100);
-	cin>>command;
-    cout<<command<<endl;
+	cin.getline(command,100);
+    ofstream myfile;
+    myfile.open ("test.txt");
 
     while(strcmp(command, "quit") != 0) {
-        if(strcmp(command, "protover N") == 0) {
-            cout<<"feature san=0 sigint=0 name=\"myChess\"";
+        if(strcmp(command, "protover 2") == 0) {
+            cout<<"feature sigint=0 san=0 name=\"myChess\""<<endl;
             cout.flush();
         }
-        cout<<command<<endl;
-        cin>>command;
+        else if(strcmp(command, "e2e4") == 0) {
+            cout<<"move e7e5"<<endl;
+            cout.flush();
+        }
+        myfile << command << endl;
+        cin.getline(command,100);
 	}
+    myfile.close();
 	return 0;
 }
