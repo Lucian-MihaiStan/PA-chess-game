@@ -10,6 +10,8 @@ int main() {
 	getline(std::cin, command);
     std::ofstream myfile;
 
+    Board board;
+
 //	initBoard();
 
     myfile.open ("test.txt");
