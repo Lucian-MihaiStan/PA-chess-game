@@ -10,27 +10,40 @@ recognized 'normal' (-1) as variant normal
 GameEnds(0, (null), 2)
 shuffleOpenings = 0
 StartChildProcess (dir=".") make run
-182 >first : xboard
+178 >first : xboard
 protover 2
-184 <first : g++ main.cpp -o main
-468 <first : ./main
-469 <first : feature sigint=0 san=0 name="myChess"
-469 >first : accepted sigint
-469 >first : accepted san
-469 >first : accepted name
-10184 >first : new
+182 <first : g++ main.cpp -o main
+473 <first : ./main
+475 <first : feature sigint=0 san=0 name="LookingAtTheCeiling"
+475 >first : accepted sigint
+475 >first : accepted san
+475 >first : accepted name
+10179 >first : new
 random
-10184 >first : level 40 5 0
-10184 >first : post
-10184 >first : hard
+10180 >first : level 40 5 0
+10180 >first : post
+10180 >first : hard
 nps: w=-1, b=-1
 nps: w=-1, b=-1
-11287 >first : time 30000
-11287 >first : otim 30000
+11511 >first : time 30000
+11511 >first : otim 30000
 book hit = (NULL)
-11287 >first : e2e4
-11288 <first : move e7e5
-GameEnds(29, xboard exit, 2)
-27967 >first : result * {xboard exit}
-27967 >first : force
-27967 >first : quit
+11511 >first : e2e4
+11610 <first : move e7e5
+13428 >first : time 29990
+13428 >first : otim 29818
+book hit = (NULL)
+13428 >first : d1h5
+13558 <first : move g8f6
+25589 >first : time 29977
+25589 >first : otim 28615
+book hit = (NULL)
+25589 >first : f1c4
+25713 <first : move b8c6
+30022 >first : h5f7
+GameEnds(26, Xboard adjudication: Checkmate, 4)
+30022 >first : result 1-0 {Xboard adjudication: Checkmate}
+30022 >first : force
+30131 <first : resign
+GameEnds(26, Xboard adjudication: Checkmate, 2)
+35489 >first : quit

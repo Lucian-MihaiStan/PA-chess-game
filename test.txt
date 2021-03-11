@@ -11,4 +11,12 @@ hard
 time 30000
 otim 30000
 e2e4
-result * {xboard exit}
+time 29990
+otim 29818
+d1h5
+time 29977
+otim 28615
+f1c4
+h5f7
+result 1-0 {Xboard adjudication: Checkmate}
+force
