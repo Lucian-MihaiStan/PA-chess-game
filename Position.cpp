@@ -1,6 +1,4 @@
-#include <iostream>
-#include <cstring>
-#include <cstdlib>
+#include "Position.h"
 
 
 int Position::getLine() {
@@ -20,5 +18,5 @@ void Position::setColumn(char c) {
 }
 
 std::string Position::toString() {
-    return null;
+    return NULL;
 }

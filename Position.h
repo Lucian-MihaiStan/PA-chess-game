@@ -1,8 +1,9 @@
-#include <string>
 
 #ifndef PA_CHESS_GAME_POSITION
 #define PA_CHESS_GAME_POSITION
 
+#include "Board.h"
+#include <string>
 
 class Position{
 private:
@@ -11,7 +12,7 @@ private:
 
 public:
 	int getLine();
-	int getColumn();
+	char getColumn();
 	void setLine(int l);
 	void setColumn(char c);
 	std::string toString();

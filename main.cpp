@@ -1,6 +1,3 @@
-#include "Board.h"
-#include "Piece.h"
-#include "Position.h"
 #include <bits/stdc++.h>
 
 
@@ -10,7 +7,10 @@ int main() {
 	getline(std::cin, command);
     std::ofstream myfile;
 
-    Board board;
+    
+
+
+    // Board board;
 
 //	initBoard();
 

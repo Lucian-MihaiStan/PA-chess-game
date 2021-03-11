@@ -1,25 +1,20 @@
-#include "Position.h"
-#include "Piece.h"
+#include
 
-#include <map>
-#include <vector>
 
 #ifndef PA_CHESS_GAME_BOARD
 #define PA_CHESS_GAME_BOARD
+
+using namespace std;
 
 #define COL_LINE 8
 
 class Board{
 public:
     void initBoard();
-    std::vector<std::vector<Piece>> getBoard();
-    std::map<Piece, Position> getWhiteMap();
-    std::map<Piece, Position> getBlackMap();
+    vector<vector<Piece>> getBoard();
 
 private:
-	std::vector<std::vector<Piece>> board;
-    std::map<Piece, Position> whiteMap;
-    std::map<Piece, Position> blackMap;
+	vector<vector<Piece>> board;
 };
 
 
