@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/PA-chess-game-luci/Board.cpp
+Board.h
+/home/student/Desktop/PA-chess-game-luci/Board.h
+
+/home/student/Desktop/PA-chess-game-luci/Board.h
+Piece.h
+/home/student/Desktop/PA-chess-game-luci/Piece.h
+vector
+-
+map
+-
+
+/home/student/Desktop/PA-chess-game-luci/Piece.h
+Position.h
+/home/student/Desktop/PA-chess-game-luci/Position.h
+
+/home/student/Desktop/PA-chess-game-luci/Position.h
+string
+-
+

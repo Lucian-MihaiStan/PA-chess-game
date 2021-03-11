@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/PA_chess_game_luci.dir/Board.cpp.o CMakeFiles/PA_chess_game_luci.dir/Command.cpp.o CMakeFiles/PA_chess_game_luci.dir/main.cpp.o CMakeFiles/PA_chess_game_luci.dir/Pawn.cpp.o CMakeFiles/PA_chess_game_luci.dir/Piece.cpp.o CMakeFiles/PA_chess_game_luci.dir/Position.cpp.o  -o PA_chess_game_luci 

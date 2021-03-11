@@ -1,18 +1,18 @@
-#include <bits/stdc++.h>
+#include <string>
+#include <iostream>
+#include <fstream>
 
+using namespace std;
 
 int main() {
 
-	std::string command;
-	getline(std::cin, command);
-    std::ofstream myfile;
-
-    
-
+	string command;
+	getline(cin, command);
+    ofstream myfile;
 
     // Board board;
 
-//	initBoard();
+    //	initBoard();
 
     myfile.open ("test.txt");
 

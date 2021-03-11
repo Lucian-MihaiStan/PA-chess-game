@@ -12,6 +12,7 @@ Position* Piece::getCurrentPos() {
 	return currentPos;
 }
 
-void move() {
+Piece::Piece(bool isWhite, int points, Position *currentPos) : isWhite(isWhite), points(points),
+                                                               currentPos(currentPos) {}
 
-}
+Piece::Piece() {}

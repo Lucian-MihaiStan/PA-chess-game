@@ -1,10 +1,15 @@
 #include "Board.h"
 
-
 void Board::initBoard() {
 }
 
-std::vector<std::vector<Piece>> Board::getBoard() {
-	return board; 
+const vector<vector<Piece *>> &Board::getBoard() const {
+    return board;
 }
+
+void Board::setBoard(const vector<vector<Piece *>> &board) {
+    Board::board = board;
+}
+
+
 
