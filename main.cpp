@@ -7,22 +7,20 @@ using namespace std;
 
 int main() {
 
-	char *command = (char *)calloc(sizeof(char), 100);
-	cin.getline(command,100);
+	string command;
+	getline(cin, command);
     ofstream myfile;
     myfile.open ("test.txt");
 
-    while(strcmp(command, "quit") != 0) {
-        if(strcmp(command, "protover 2") == 0) {
+    while(command != "quit") {
+        if(command == "protover 2") {
             cout<<"feature sigint=0 san=0 name=\"myChess\""<<endl;
-            cout.flush();
         }
-        else if(strcmp(command, "e2e4") == 0) {
+        else if(command == "e2e4") {
             cout<<"move e7e5"<<endl;
-            cout.flush();
         }
         myfile << command << endl;
-        cin.getline(command,100);
+        getline(cin, command);
 	}
     myfile.close();
 	return 0;
