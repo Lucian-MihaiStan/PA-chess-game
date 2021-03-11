@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/FACULTATE/Semestrul 2/PA/proiect/PA-chess-game/main.cpp
+iostream
+-
+cstring
+-
+cstdlib
+-
+fstream
+-
+
