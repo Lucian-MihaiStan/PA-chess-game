@@ -11,7 +11,3 @@ hard
 time 30000
 otim 30000
 e2e4
-time 29999
-otim 29781
-f2f4
-result * {xboard exit}
