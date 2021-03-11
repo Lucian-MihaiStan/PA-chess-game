@@ -12,6 +12,7 @@ int main() {
     ofstream myfile;
     myfile.open ("test.txt");
 
+
     while(strcmp(command, "quit") != 0) {
         if(strcmp(command, "protover 2") == 0) {
             cout<<"feature sigint=0 san=0 name=\"myChess\""<<endl;
