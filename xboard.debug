@@ -10,27 +10,27 @@ recognized 'normal' (-1) as variant normal
 GameEnds(0, (null), 2)
 shuffleOpenings = 0
 StartChildProcess (dir=".") make run
-182 >first : xboard
+186 >first : xboard
 protover 2
-184 <first : g++ main.cpp -o main
-468 <first : ./main
-469 <first : feature sigint=0 san=0 name="myChess"
-469 >first : accepted sigint
-469 >first : accepted san
-469 >first : accepted name
-10184 >first : new
+188 <first : g++ main.cpp -o main
+488 <first : ./main
+490 <first : feature sigint=0 san=0 name="LookingAtTheCeiling"
+490 >first : accepted sigint
+490 >first : accepted san
+490 >first : accepted name
+10191 >first : new
 random
-10184 >first : level 40 5 0
-10184 >first : post
-10184 >first : hard
+10191 >first : level 40 5 0
+10191 >first : post
+10191 >first : hard
 nps: w=-1, b=-1
 nps: w=-1, b=-1
-11287 >first : time 30000
-11287 >first : otim 30000
+11134 >first : time 30000
+11134 >first : otim 30000
 book hit = (NULL)
-11287 >first : e2e4
-11288 <first : move e7e5
+11134 >first : e2e4
+11216 <first : move e7e5
 GameEnds(29, xboard exit, 2)
-27967 >first : result * {xboard exit}
-27967 >first : force
-27967 >first : quit
+13538 >first : result * {xboard exit}
+13538 >first : force
+13538 >first : quit
