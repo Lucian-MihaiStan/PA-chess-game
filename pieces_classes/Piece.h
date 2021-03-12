@@ -1,7 +1,7 @@
 #ifndef PA_CHESS_GAME_PIECE
 #define PA_CHESS_GAME_PIECE
 
-#include "Position.h"
+#include "../Position.h"
 
 class Piece{
 private:

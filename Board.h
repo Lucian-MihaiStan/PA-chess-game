@@ -1,7 +1,7 @@
 #ifndef PA_CHESS_GAME_BOARD
 #define PA_CHESS_GAME_BOARD
 
-#include "Piece.h"
+#include "pieces_classes/Piece.h"
 #include <vector>
 #include <map>
 

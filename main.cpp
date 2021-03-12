@@ -1,22 +1,17 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include "command_classes/CommandParser.h"
 
 using namespace std;
 
 int main() {
 
-	string command;
-	getline(cin, command);
+    auto* parser = new CommandParser();
     ofstream myfile;
-
-    // Board board;
-
-    //	initBoard();
-
     myfile.open ("test.txt");
 
-    while(command != "quit") {
+    /*while(command != "quit") {
         if(command == "protover 2") {
             std::cout<<"feature sigint=0 san=0 name=\"LookingAtTheCeiling\""<<std::endl;
         }
@@ -34,7 +29,14 @@ int main() {
         }
         myfile << command << std::endl;
         getline(std::cin, command);
-	}
+	}*/
+
+    while(true) {
+        string command;
+        cin >> command;
+        parser->parseCommand(command);
+    }
+
     myfile.close();
 	return 0;
 }

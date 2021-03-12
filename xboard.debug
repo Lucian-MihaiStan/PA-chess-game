@@ -1,4 +1,4 @@
-locale = en_US.UTF-8
+locale = LC_CTYPE=en_US.UTF-8;LC_NUMERIC=ro_RO.UTF-8;LC_TIME=ro_RO.UTF-8;LC_COLLATE=en_US.UTF-8;LC_MONETARY=ro_RO.UTF-8;LC_MESSAGES=en_US.UTF-8;LC_PAPER=ro_RO.UTF-8;LC_NAME=ro_RO.UTF-8;LC_ADDRESS=ro_RO.UTF-8;LC_TELEPHONE=ro_RO.UTF-8;LC_MEASUREMENT=ro_RO.UTF-8;LC_IDENTIFICATION=ro_RO.UTF-8
 recognized 'normal' (-1) as variant normal
 recognized 'normal' (-1) as variant normal
 recognized 'normal' (-1) as variant normal
@@ -10,27 +10,31 @@ recognized 'normal' (-1) as variant normal
 GameEnds(0, (null), 2)
 shuffleOpenings = 0
 StartChildProcess (dir=".") make run
-186 >first : xboard
+193 >first : xboard
 protover 2
-188 <first : g++ main.cpp -o main
-488 <first : ./main
-490 <first : feature sigint=0 san=0 name="LookingAtTheCeiling"
-490 >first : accepted sigint
-490 >first : accepted san
-490 >first : accepted name
-10191 >first : new
+195 <first : g++ -g -Wall ./command_classes/*.cpp *.cpp -o main
+2473 <first : ./main
+2475 <first : feature sigint=0 san=0 name="myChess"
+2475 >first : accepted sigint
+2475 >first : accepted san
+2475 >first : accepted name
+10195 >first : new
 random
-10191 >first : level 40 5 0
-10191 >first : post
-10191 >first : hard
+10195 >first : level 40 5 0
+10195 >first : post
+10195 >first : hard
 nps: w=-1, b=-1
 nps: w=-1, b=-1
-11134 >first : time 30000
-11134 >first : otim 30000
+11817 >first : time 30000
+11817 >first : otim 30000
 book hit = (NULL)
-11134 >first : e2e4
-11216 <first : move e7e5
+11817 >first : e2e4
+11891 <first : move e7e5
+14184 >first : time 29992
+14185 >first : otim 29770
+book hit = (NULL)
+14185 >first : d1h5
 GameEnds(29, xboard exit, 2)
-13538 >first : result * {xboard exit}
-13538 >first : force
-13538 >first : quit
+16961 >first : result * {xboard exit}
+16962 >first : force
+16962 >first : quit

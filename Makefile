@@ -1,5 +1,5 @@
 build:
-	g++ -g -Wall *.cpp -o main
+	g++ -g -Wall ./command_classes/*.cpp ./pieces_classes/*.cpp *.cpp -o main
 
 run: build
 	./main
